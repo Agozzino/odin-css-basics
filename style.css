@@ -59,6 +59,7 @@ a {
     padding: 0.5em;
     border-radius: 10px;
     color: white;
+    margin-top: 1em;
 }
 
 #placeholder {
@@ -66,5 +67,55 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#information {
+    padding: 2em;
+}
+
+#information > h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    padding: 0 10em 0;
+}
+
+.card {
+    width: 150px;
+}
+
+.card > .image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card > p {
+    text-align: center;
+}
+
+#quote-section {
+    background-color: #e5e7eb;
+    padding: 10em;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: center;
+}
+
+#quote-author {
+    text-align: end;
 }
 
