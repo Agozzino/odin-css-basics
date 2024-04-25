@@ -110,12 +110,48 @@ a {
 #quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: light;
     color: #1f2937;
     text-align: center;
 }
 
 #quote-author {
     text-align: end;
+    font-weight: bolder;
 }
+
+.blue-section {
+    background-color: #3882F6;
+    padding: 2em;
+    align-items: center;
+}
+
+.blue-section > #blue-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-section > button {
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    width: 200px;
+    height: 50px;
+}
+
+.section {
+    padding: 5em;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
